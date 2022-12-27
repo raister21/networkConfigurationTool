@@ -325,6 +325,7 @@ class _ConfigurationScreenState extends State<ConfigurationScreen> {
                       textEditingController: controllers[5],
                       focusNode: focusNodes[5],
                       completeFieldCallback: () {},
+                      textInputType: TextInputType.text,
                       onChange: (value) {
                         if (value != null) {
                           setState(() {
